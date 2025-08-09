@@ -1,0 +1,4 @@
+[submodule "Alice"]
+	path = Alice
+	url = git@github.com:hananiahhsu/Alice.git
+	branch = main
