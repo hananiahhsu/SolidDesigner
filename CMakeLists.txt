@@ -181,9 +181,6 @@ set(CMAKE_INSTALL_LIBDIR "lib")
 # APPS 目录
 add_subdirectory(Designer)
 
-# QtFrameWork框架
-add_subdirectory(QtFrameWork)
-
 # 平台层
 add_subdirectory(Alice)
 

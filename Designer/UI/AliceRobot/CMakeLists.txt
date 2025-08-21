@@ -39,7 +39,7 @@ include_directories(${PROJECT_SOURCE_DIR}/Alice/AliceBasicService/Public)
 #=============================================================================
 #指定工程为动态库程序
 add_library(AliceRobot SHARED ${SOURCE_FILES} ${HEADER_FILES})
-#将AliceRobot工程放到QtFrameWork文件夹下面，和QtPropertyBrowser放在一次
+#将AliceRobot工程放到QFrameWork文件夹下面，和QtPropertyBrowser放在一次
 set_target_properties(AliceRobot PROPERTIES FOLDER "Designer/UI")
 #=============================================================================
 

@@ -82,8 +82,8 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 include_directories(${PROJECT_SOURCE_DIR}/Alice/AliceBasicService/Public)
 include_directories(${PROJECT_SOURCE_DIR}/Alice/AliceCommonApplication/Public)
 include_directories(${PROJECT_SOURCE_DIR}/Alice/InteractionLayer/Interface/AliceApplicationInterface/Public)
-include_directories(${PROJECT_SOURCE_DIR}/QtFrameWork/AliceUiFrameWork)
-include_directories(${PROJECT_SOURCE_DIR}/QtFrameWork/AliceUiFrameWork/Public)
+include_directories(${PROJECT_SOURCE_DIR}/QFrameWork/AliceUiFrameWork)
+include_directories(${PROJECT_SOURCE_DIR}/QFrameWork/AliceUiFrameWork/Public)
 
 #-----------------------------------------------------------------------------
 # 自动添加include目录
