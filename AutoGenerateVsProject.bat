@@ -64,7 +64,7 @@ echo %cd%
 echo "Start to cmake... ..."
 
 :: -B 指定工程的输出路径  -H 指定CMAKELIST.TXT的路径
-..\SolidDesigner\ToolChain\cmake\bin\cmake.exe -B ..\SolidDesigner_Build -H..\SolidDesigner -DCMAKE_GENERATOR_PLATFORM=x64 -G "Visual Studio 15 2017"
+..\SolidDesigner\ToolChain\cmake\bin\cmake.exe -B ..\SolidDesigner_Build -H..\SolidDesigner -DCMAKE_GENERATOR_PLATFORM=x64 -G "Visual Studio 16 2019"
 
 if errorlevel 1 (
     echo "CMake failed."
@@ -80,7 +80,7 @@ if %errorlevel% neq 0 (
     echo "devenv.exe is not running. Starting a new instance..."
     echo "Opening Visual Studio..."
     ::start "" "%VS140COMNTOOLS%\..\IDE\devenv.exe" "%cd%\SolidDesigner.sln"
-    start "" "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\Common7\\IDE\\devenv.exe" "%cd%\SolidDesigner.sln"
+    start "" "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\IDE\\devenv.exe" "%cd%\SolidDesigner.sln"
 ) else (
     echo "devenv.exe is already running with PID %vs_pid%. Proceeding to open project..."
 )
